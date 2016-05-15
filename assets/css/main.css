@@ -61,6 +61,7 @@
 	.container {
 		margin-left: auto;
 		margin-right: auto;
+        margin-bottom: 3cm;
 	}
 
 	.container.\31 25\25 {
@@ -1495,6 +1496,32 @@
 		text-align: center;
 	}
 
+     .box.article-list article {
+        border-bottom: solid 1px #dbdbdb;
+        margin: 0 0 2.75em 0;
+        padding: 0 0 2.75em 0;
+    }
+
+        .box.article-list article:last-child {
+            border-bottom: 0;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .box.excerpt {
+        position: relative;
+        overflow: hidden;
+        }
+
+        .box.excerpt header {
+            margin: 0 0 1em 0;
+        }
+
+        .box.excerpt .image, .box.excerpt p {
+            margin-bottom: 0;
+        }
+
+
 /* Icons */
 
 	.icon {
@@ -1536,6 +1563,11 @@
 		background-image: url("images/bg.png");
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 	}
+
+        .wrapper > .inner {
+            position: relative;
+            z-index: 2;
+        }
 
 		.wrapper.first {
 			box-shadow: none;
