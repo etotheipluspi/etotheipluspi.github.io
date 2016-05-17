@@ -1919,6 +1919,19 @@
 
 	}
 
+/* Publications */
+
+    .publ {
+      padding-top: 1px;
+      text-align: center;
+    }
+    .publ li {
+      border: 1px solid #CCC;
+      padding: 5px;
+      margin: 5px 2px;
+      display: inline-block;
+    }
+
 /* Mobile */
 
 	@media screen and (max-width: 736px) {
@@ -2075,3 +2088,6 @@
 				}
 
 	}
+
+
+

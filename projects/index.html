@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -34,82 +35,164 @@
 				</ul>
             </nav>
 
+
 		<!-- Work -->
 			<div class="wrapper style1 first">
-                
-                <article class="container" id="software">
+                <section class="container" id="software">
+
+                    <section id="one" class="main style1">
                     <header><h1><strong>Software</strong></h1></header>
-                    <div class="row">
-                        <div class="4u 12u(mobile)">
-                            <span class="image fit">
-                                <img src="images/pomdps_logo.png" alt>
-                            </span>
+                        <div class="container">
+                            <div class="row 150%">
+                                <div class="6u 12u$(medium)">
+                                    <header class="major">
+                                            <h2>
+                                                <a href="http://juliapomdp.github.io">
+                                                    JuliaPOMDP
+                                                </a>
+                                            </h2>
+                                    </header>
+                                    <p align="justify"> 
+                                        I am one of the core developers of JuliaPOMDP. The framework is a collection of
+                                        algorithms and support tools for working with and solving Markov decision processes and their
+                                        partially observable counterparts. It is written in Julia, and is aimed at both novices
+                                        and experts in probabilistic planning and reinforcement learning.
+
+                                    </p>
+                                </div>
+                                <div class="6u$ 12u$(medium) important(medium)">
+                                    <span class="image fit">
+                                        <a href="http://juliapomdp.github.io">
+                                            <img src="images/pomdps_logo.png" alt="" />
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+
+
+                            <div class="row 150%">
+                                <div class="6u 12u$(medium)">
+                                    <header class="major">
+                                    <h2><a href="https://github.com/sisl/Chimp">Chimp</a></h2>
+                                    </header>
+                                    <p align="justify">
+                                        Chimp is a modular framework for deep reinfrocement learning written in Python. It
+                                        integrates with a number of existing deep learning frameworks (TenserFlow, Theano,
+                                        Chainer) and provides a number of example models to get started.
+                                    </p>
+                                </div>
+                                <div class="6u$ 12u$(medium) important(medium)">
+                                    <span class="image fit">
+                                        <a href="https://github.com/sisl/Chimp">
+                                            <img src="images/monkey_text.png" alt="" />
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="8u 12u(mobile)">
-                            <header><h3>JuliaPOMDP</h3></header> 
-                            <p align="justify">
-                                I am one of the core developers of JuliaPOMDP. The framework is a collection of
-                                algorithms and support tools for working with and solving Markov decision processes and their
-                                partially observable counterparts. It is written in Julia, and is aimed at both novices
-                                and experts in probabilistic planning and reinfrocement learning. With this framework,
-                                we aimed to make it simple to define a problem of interest and use one of the many
-                                solvers in our framework to compute a solution.  
-                            </p>
+                    </section>
+
+                    <section id="one" class="main style1">
+                        <header><h1><strong>Publications</strong></h1></header>
+                        <div class="container">
+                            <div class="row 150%">
+                                <div class="6u 12u$(medium)">
+                                    <header class="major">
+                                            <h3>
+                                                Target Surveillance in Adversarial Environments Using POMDPs
+                                            </h3>
+                                    </header>
+                                    <p align="justify"> 
+                                    <strong>Maxim Egorov</strong>, Mykel Kochenderger and Jaak Uudmae <br/>
+                                    <em> AAAI Conference on Artificial Intelligence (AAAI), 2016 </em> <br/>
+                                    This paper introduces an extension of the target surveillance
+                                    problem in which the surveillance agent is exposed to an adversarial
+                                    ballistic threat. The problem is formulated as a partially
+                                    observable Markov decision process.
+                                    We evaluate the performance of our algorithm against humans in a target surveillance
+                                    video game.
+                                    </p>
+                            <div class="publ">
+                                <ul>
+                                    <li><a href="http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewFile/12091/11900">Paper</a></li>
+                                    <li><a href="https://github.com/sisl/TargetSurveillance">Code</a></li>
+                                    <li><a href="https://github.com/sisl/TargetSurveillance">Slides</a></li>
+                                </ul>
+                            </div>
+                                </div>
+                                <div class="6u$ 12u$(medium) important(medium)">
+                                    <span class="image fit">
+                                            <img src="images/threatsc.jpg" alt="" />
+                                    </span>
+                                </div>
+                            </div>
+
+
                         </div>
+                    </section>
+
+
+                    <section id="one" class="main style1">
+                        <header><h1><strong>Class Projects</strong></h1></header>
+                        <div class="container">
+                            <div class="row 150%">
+                                <div class="6u 12u$(medium)">
+                                    <header class="major">
+                                            <h3>
+                                                Multi-Agent Deep Reinforcement Learning            
+                                            </h3>
+                                    </header>
+                                    <p align="justify"> 
+                                        This work introduces a novel approach for solving reinforcement learning problems in multi-agent settings. We propose a state reformulation of multi-agent problems that allows the system state to be represented in an image-like fashion. We then apply deep reinforcement learning techniques with a convolution neural network as the Q-value function approximator to learn distributed multi-agent policies. 
+                                    </p>
+                            <div class="publ">
+                                <ul>
+                                    <li><a href="http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewFile/12091/11900">Paper</a></li>
+                                    <li><a href=A"https://github.com/sisl/TargetSurveillance">Poster</a></li>
+                                </ul>
+                            </div>
+                                </div>
+                                <div class="6u$ 12u$(medium) important(medium)">
+                                    <span class="image fit">
+                                            <img src="images/stationary_policies.jpg" alt="" />
+                                    </span>
+                                </div>
+
+                            <div class="row 150%">
+                                <div class="6u 12u$(medium)">
+                                    <header class="major">
+                                            <h3>
+                                                Deep Reinforcement Learning in POMDPs
+                                            </h3>
+                                    </header>
+                                    <p align="justify"> 
+                                        This project introduced a novel approach of solving partially observable Markov decision processes using deep Q-Networks (DQNs). We demonstrated that DQNs can learn good policies, but require significantly more computational power. We also showed that while the Q-values converge, the policies are sensitive to small perturbations, and do not converge even after long training cycles.
+                                    </p>
+                            <div class="publ">
+                                <ul>
+                                    <li><a href="http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewFile/12091/11900">Paper</a></li>
+                                    <li><a href=A"https://github.com/sisl/TargetSurveillance">Poster</a></li>
+                                </ul>
+                            </div>
+                                </div>
+                                <div class="6u$ 12u$(medium) important(medium)">
+                                    <span class="image fit">
+                                            <img src="images/conv_net.jpg" alt="" />
+                                    </span>
+                                </div>
+
+
+
+                            </div>
+
+
+                        </div>
+                    </section>
+
+
+
                     </div>
-
-                    <div class="row">
-                        <div class="4u 12u(mobile)">
-                            <span class="image fit">
-                                <img src="images/chimp.png" alt>
-                            </span>
-                        </div>
-                        <div class="8u 12u(mobile)">
-                            <header><h3>Chimp</h3></header> 
-
-                            <p align="justify">
-                                Chimp is a modular framework for deep reinfrocement learning written in Python.
-                            </p>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="container" id="publications">
-                    <header><h1><strong>Publications</strong></h1></header>
-                    <div class="row">
-                        <div class="4u 12u(mobile)">
-                            <span class="image fit">
-                                <img src="images/pomdps_logo.png" alt>
-                            </span>
-                        </div>
-                        <div class="8u 12u(mobile)">
-                            <header><h3>Target Surveillance in Adversarial Environments Using POMDPs</h3></header> 
-                            <p align="justify">
-                                AAAI-16
-                            </p>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="container" id="class-projects">
-                    <header><h1><strong>Class Projects</strong></h1></header>
-                    <div class="row">
-                        <div class="4u 12u(mobile)">
-                            <span class="image fit">
-                                <img src="images/pomdps_logo.png" alt>
-                            </span>
-                        </div>
-                        <div class="8u 12u(mobile)">
-                            <header><h3>Target Surveillance in Adversarial Environments Using POMDPs</h3></header> 
-                            <p align="justify">
-                                AAAI-16
-                            </p>
-                        </div>
-                    </div>
-                </article>
-
-
-
+                </section>
 			</div>
 
 
